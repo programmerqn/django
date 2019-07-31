@@ -2,4 +2,4 @@ language: python
 sudo: required
 before_install:
   pip install -Ur requirements.txt
-script: test.py
+script: python test.py
